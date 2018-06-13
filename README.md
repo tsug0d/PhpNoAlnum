@@ -35,7 +35,7 @@ python php_noalnum.py --file test4_system.php --out test4_output.php
 
 ## Rules to follow
 
-* Input file must follow Correct Syntax php code
+* Input file content must follow Correct Syntax php code
 * This tool only works with php function
 ```css
 function_name();
