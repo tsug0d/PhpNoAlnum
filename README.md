@@ -1,4 +1,4 @@
-# Php No AlphaNumeric Obfuscate Tool!
+# PHP No-AlphaNumeric Obfuscate Tool!
 
 <p align="center">
   <img src="https://i.imgur.com/hdfx2sh.png" height="35%" width="35%">
