@@ -28,8 +28,10 @@ python php_noalnum.py --file <input_file_path> --out <out_put_file_path>
 
 🤖 Example:
 ```css
-python php_noalnum.py --file test3_multi.php --out test3_output.php
+python php_noalnum.py --file test4_system.php --out test4_output.php
 ```
+<img src="https://i.imgur.com/r1s2vOp.png" >
+<img src="https://i.imgur.com/8OVrHJ0.png" >
 
 ## Rules to follow
 
