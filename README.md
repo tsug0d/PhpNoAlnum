@@ -28,7 +28,7 @@ python php_noalnum.py --file <input_file_path> --out <out_put_file_path>
 
 🤖 Example:
 ```css
-python php_noalnum.py --file test3_multi.php --out ./output/test3_output.php
+python php_noalnum.py --file test3_multi.php --out test3_output.php
 ```
 
 ## Rules to follow
