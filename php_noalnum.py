@@ -3,6 +3,10 @@ import re
 import sys
 import argparse
 
+##################################
+# Author: tsug0d - June 13, 2018 #
+##################################
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--file', type=argparse.FileType('r'),
     help="Input php file, please run it first to make sure it is in correct php syntax")
