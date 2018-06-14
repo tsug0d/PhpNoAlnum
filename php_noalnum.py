@@ -168,10 +168,12 @@ def parse_text(string):
         parse_func(i)
 
 def safe_output(string):
-    dangerous=['-','!','@','#','$','%','^','&','*','(',')','=','+','/','<','>','?','.',',','"','\'','|',';','[',']','{','}',':',' ','`','~']
+    dangerous=['_','-','!','@','#','$','%','^','&','*','(',')','=','+','/','<','>','?','.',',','"','\'','|',';','[',']','{','}',':',' ','`','~']
     for i in dangerous:
         string=string.replace('.@%s.'%i,'.\'%s\'.'%i)
         string=string.replace('.@%s.'%i,'.\'%s\'.'%i)
+        string=string.replace('.@%s;'%i,'.\'%s\';'%i)
+        string=string.replace('_=%s.'%i,'_=\'%s\'.'%i)
     return string
 
 if __name__ == "__main__":
