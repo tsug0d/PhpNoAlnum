@@ -120,7 +120,7 @@ def parse_func(string):
     global tmp
     global rand_numb
     global instructions
-    regex="^(?P<func>[A-Za-z0-9_].*)\((?P<value>.*)\)$"
+    regex="^(?P<func>[A-Za-z0-9_].*?)\((?P<value>.*)\)$"
     m=re.match(regex,string)
     if m==None:
         print 'Failed'
