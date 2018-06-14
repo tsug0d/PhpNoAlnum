@@ -122,6 +122,9 @@ def parse_func(string):
     global instructions
     regex="^(?P<func>[A-Za-z0-9_].*)\((?P<value>.*)\)$"
     m=re.match(regex,string)
+    if m==None:
+        print 'Failed'
+        sys.exit()
     function=m.group('func')
     value=m.group('value').replace("'","").replace('"',"")
     if value=='':
