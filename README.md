@@ -23,7 +23,7 @@ cd PhpNoAlnum
 
 🤘 Then:
 ```css
-python php_noalnum.py --file <input_file_path> --out <out_put_file_path>
+python php_noalnum.py --file <input_file_path> --out <output_file_path>
 ```
 
 🤖 Example:
