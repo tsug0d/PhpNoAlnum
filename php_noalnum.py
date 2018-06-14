@@ -3,9 +3,8 @@ import re
 import sys
 import argparse
 
-##################################
-# Author: tsug0d - June 13, 2018 #
-##################################
+
+# Author: tsug0d - June 13, 2018 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--file', type=argparse.FileType('r'),
