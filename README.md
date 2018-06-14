@@ -9,7 +9,7 @@
 
 **<p align="center">🎉 This is the tool that help you create php function in no-alnum style 🎉</p>**
 
-## How to use
+## How-to-use
 
 🕵🏾 Very first command: 
 ```css
@@ -33,9 +33,9 @@ python php_noalnum.py --file test4_system.php --out test4_output.php
 <img src="https://i.imgur.com/r1s2vOp.png" >
 <img src="https://i.imgur.com/8OVrHJ0.png" >
 
-## Rules to follow
+## Rules-to-follow
 
-* Input file content must follow Correct Syntax php code
+* Input file content MUST follow Correct Syntax php code
 * This tool only works with php function
 ```css
 function_name();
